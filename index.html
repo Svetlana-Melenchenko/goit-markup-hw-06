@@ -435,6 +435,23 @@
 					</li>
 				</ul>
 			</div>
+
+			<div class="footer-form">
+				<p class="form-text">Subscribe</p>
+
+				<form class="subscribe" name="subscribe">
+					<label class="sub-form-item">
+						<input class="form-item-input" type="text" name="e_mail" placeholder="&nbsp;">
+						<span class="form-item-text">E-mail</span>
+					</label>
+
+					<button class="sub-btn btn" type="reset">Subscribe
+						<svg class="sub-btn-icon" width="24" height="24">
+							<use href="./images/icons.svg#subscrib-foter"></use>
+						</svg>
+					</button>
+				</form>
+			</div>
 		</div>
 	</footer>
 
@@ -446,6 +463,44 @@
 					<use href="./images/icons.svg#close-black"></use>
 				</svg>
 			</button>
+
+			<p class="modal-text">Leave your contacts and we will call you back</p>
+
+			<form name="modal_form">
+				<label class="modal-label" for="modal_name">Name</label>
+				<div class="form-wrapper">
+					<input class="form-field" type="text" name="modal_name" id="modal_name">
+					<svg class="form-icon" width="18" height="18">
+						<use href="./images/icons.svg#person-mod"></use>
+					</svg>
+				</div>
+				<label class="modal-label" for="modal_phone">Phone</label>
+				<div class="form-wrapper">
+					<input class="form-field" type="text" name="modal_phone" id="modal_phone">
+					<svg class="form-icon" width="18" height="24">
+						<use href="./images/icons.svg#phone-mod-1"></use>
+					</svg>
+				</div>
+
+				<label class="modal-label" for="modal_email">Email</label>
+				<div class="form-wrapper">
+					<input class="form-field" type="text" name="modal_email" id="modal_email">
+					<svg class="form-icon" width="18" height="24">
+						<use href="./images/icons.svg#email-mod"></use>
+					</svg>
+				</div>
+
+				<label class="form-label" for="modal_comment">Comment</label>
+				<textarea class="form-comment" name="modal_comment" id="modal_comment" rows="6"
+					placeholder="Text input"></textarea>
+
+				<label class="form-check" for="modal_check">
+					<input class="form-check-input" type="checkbox" name="modal_check">
+					<span class="form-check-text">I accept the terms and conditions of the <a class="form-check-link"
+							href="">Privacy Policy</a></span>
+				</label>
+				<button class="form-mod-btn btn hero-button" type="submit">Send</button>
+			</form>
 		</div>
 	</div>
 	<script src="./js/modal.js"></script>
